@@ -36,7 +36,7 @@ This repository contains a Python notebook that demonstrates automatic image mas
 ### Masked Image:
 ![Masked Image](Images/mask2.png)
 
-### Inpainted Image:
+### Inpainted Image with prompt (supercar):
 ![Inpainted Image](Images/gen6.png)
 
 ---
@@ -53,7 +53,7 @@ The following example showcases the pipeline:
 ### Masked Image:
 ![Masked Image](Images/mask3.png)
 
-### Inpainted Image:
+### Inpainted Image with prompt (happy brown bear) :
 ![Inpainted Image with prompt (happy brown bear)](Images/gen4.png)
 
 
@@ -63,7 +63,7 @@ The following example showcases the pipeline:
 ### Masked Image:
 ![Masked Image](Images/mask4.png)
 
-### Inpainted Image:
+### Inpainted Image with prompt (Newspaper) :
 ![Inpainted Image with prompt (newspaper)](Images/gen1.png)
 
 
