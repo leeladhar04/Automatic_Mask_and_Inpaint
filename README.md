@@ -13,6 +13,12 @@ This repository contains a Python notebook that demonstrates automatic image mas
 
 ---
 
+## Getting Started
+
+Just run the following notebook :- https://colab.research.google.com/drive/1-VOQ2ziByv3WL6SSOPopLn2OLEUdsc5i?usp=sharing
+
+---
+
 ## Workflow
 
 1. **Input Image**: The user provides an image that requires masking and inpainting.
@@ -41,12 +47,6 @@ This repository contains a Python notebook that demonstrates automatic image mas
 
 ---
 
-## Getting Started
-
-Just run the following notebook :- https://colab.research.google.com/drive/1-VOQ2ziByv3WL6SSOPopLn2OLEUdsc5i?usp=sharing
-
-**Results**
-The following example showcases the pipeline:
 ### Input Image:
 ![Input Image](Images/img3.jpg)
 
@@ -56,7 +56,7 @@ The following example showcases the pipeline:
 ### Inpainted Image with prompt (happy brown bear) :
 ![Inpainted Image with prompt (happy brown bear)](Images/gen4.png)
 
-################################################################################
+---
 
 ### Input Image:
 ![Input Image](Images/img4.jpg)
@@ -67,23 +67,28 @@ The following example showcases the pipeline:
 ### Inpainted Image with prompt (Newspaper) :
 ![Inpainted Image with prompt (newspaper)](Images/gen1.png)
 
+---
 
 ## Limitations
 
-YOLOv8 is a powerful object detection model trained on datasets like COCO (Common Objects in Context), which contains annotations for 80 common object categories. However, its performance is inherently limited to the categories defined in the COCO dataset. This means YOLO cannot identify objects or concepts outside this predefined set. For example, it may fail to recognize specific industry-specific items, rare objects, or detailed subcategories. Additionally, YOLO's accuracy may be affected by variations in lighting, object occlusion, or unconventional angles, leading to false negatives or misclassifications.
+YOLOv8 is a powerful object detection model trained on datasets like COCO (Common Objects in Context), which contains annotations for 80 common object categories. However, its performance is inherently limited to the categories defined in the COCO dataset. This means YOLO cannot identify objects or concepts outside this predefined set. For example, it may fail to recognize specific industry-specific items, rare objects, or detailed subcategories.
 
-Examples of COCO Keywords:
-Person
-Bicycle
-Car
-Dog
-Cat
-Chair
-Bird
-Backpack
-Bottle
-Keyboard
+Additionally, YOLO's accuracy may be affected by variations in lighting, object occlusion, or unconventional angles, leading to false negatives or misclassifications.
+
+### Examples of COCO Keywords:
+- Person
+- Bicycle
+- Car
+- Dog
+- Cat
+- Chair
+- Bird
+- Backpack
+- Bottle
+- Keyboard
+
 These limitations should be considered when choosing YOLO for applications that require detecting highly specific or uncommon objects.
+
 
 
 
