@@ -48,7 +48,7 @@ Just run the following notebook :- https://colab.research.google.com/drive/1-VOQ
 **Results**
 The following example showcases the pipeline:
 ### Input Image:
-![Input Image](Images/img3.png)
+![Input Image](Images/img3.jpg)
 
 ### Masked Image:
 ![Masked Image](Images/mask3.png)
@@ -58,7 +58,7 @@ The following example showcases the pipeline:
 
 
 ### Input Image:
-![Input Image](Images/img4.png)
+![Input Image](Images/img4.jpg)
 
 ### Masked Image:
 ![Masked Image](Images/mask4.png)
