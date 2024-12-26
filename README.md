@@ -2,8 +2,10 @@
 
 This repository contains a Python notebook that demonstrates automatic image masking using the **Segment Anything Model (SAM) and You Only Look Once (YOLO)** and inpainting using the **Stable Diffusion Inpainting pipeline**. The project showcases how cutting-edge AI models can be used to mask objects in an image automatically and fill in the masked regions using context-driven prompts.
 
+---
 
-[Demonstartion Video](video/demonstrate.mp4)
+https://github.com/user-attachments/assets/cc41f621-afde-4392-a6ad-c16a079372b6
+
 
 ---
 
